@@ -1,4 +1,9 @@
 <Solution>
+  <Folder Name="/Dockerfiles/">
+    <File Path=".env" />
+    <File Path="docker-compose.yml" />
+    <File Path="README.md" />
+  </Folder>
   <Project Path="Devices.Api/Devices.Api.csproj" />
   <Project Path="Devices.Application/Devices.Application.csproj" />
   <Project Path="Devices.Domain/Devices.Domain.csproj" />
