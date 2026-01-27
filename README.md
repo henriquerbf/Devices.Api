@@ -35,7 +35,7 @@ MSSQL_PID=Developer
 
 How to start the container:
 Open the terminal in the folder where “docker-compose.yml” is located
-Run the command: docker compose up -d
+Run the command: docker compose up -d --build
 Verify that it is running: docker ps
 
 ## 🔑 Migrations Instructions
