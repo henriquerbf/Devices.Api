@@ -8,5 +8,6 @@
   <Project Path="Devices.Application/Devices.Application.csproj" />
   <Project Path="Devices.Domain/Devices.Domain.csproj" />
   <Project Path="Devices.Infrastructure/Devices.Infrastructure.csproj" />
+  <Project Path="Devices.IntegrationTests/Devices.IntegrationTests.csproj" Id="986a159a-d6f8-4ce3-8122-ff85dd9d951a" />
   <Project Path="Devices.Test/Devices.UnitTests.csproj" />
 </Solution>
