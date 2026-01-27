@@ -1,5 +1,5 @@
 <Solution>
-  <Folder Name="/Dockerfiles/">
+  <Folder Name="/Project Extra Files/">
     <File Path=".env" />
     <File Path="docker-compose.yml" />
     <File Path="README.md" />
