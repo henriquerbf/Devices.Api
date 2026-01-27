@@ -22,13 +22,13 @@ services: # Seção que lista os serviços (containers) do app.
     build:
       context: .
       dockerfile: Devices.Api/Dockerfile
-    container_name: devices-api
+    container_name: Devices.Api
     depends_on:
       - sqlserver
     restart: on-failure #avoiding the healthcheck
     environment:
       ASPNETCORE_ENVIRONMENT: Development
       ASPNETCORE_URLS: "http://+:8080"
-      ConnectionStrings__DevicesDb: "Server=sqlserver,1433;Database=DevicesDb;User Id=sa;Password=${MSSQL_SA_PASSWORD};TrustServerCertificate=True;Encrypt=False;"
+      ConnectionStrings__DevicesDb: "Server=database,1433;Database=DevicesDb;User Id=sa;Password=${MSSQL_SA_PASSWORD};TrustServerCertificate=True;Encrypt=False;"
     ports:
       - "8080:8080"
