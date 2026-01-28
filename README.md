@@ -16,10 +16,10 @@ The solution follows Hexagonal Architecture principles and is designed as a micr
 
 ## 🏗️ Requirements
 
-Framework version: .NET 10
-Database: SQL Server with Entity Framework Core
-Documentation: Swagger
-Testing: xUnit
+Framework version: .NET 10     
+Database: SQL Server with Entity Framework Core   
+Documentation: Swagger   
+Testing: xUnit   
 
 ## 🐳 Docker Instructions
 
