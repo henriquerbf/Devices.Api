@@ -28,10 +28,10 @@ SQL Version:
 
 Create a “.env” file in the same folder as “docker-compose.yml” with the following variables. Set the values as you prefer:
 
-ACCEPT_EULA=Y
-MSSQL_SA_PASSWORD=teste@123
-TZ=America/Sao_Paulo
-MSSQL_PID=Developer
+ACCEPT_EULA=Y   
+MSSQL_SA_PASSWORD=teste@123   
+TZ=America/Sao_Paulo   
+MSSQL_PID=Developer   
 
 How to start the container:
 Open the terminal in the folder where “docker-compose.yml” is located
